@@ -10,8 +10,8 @@ public class ConvertIntToString {
 	public static void main(String[] args) // This is the main method
 	{
 		Scanner readNumber = new Scanner(System.in); // Scanner object readNumber to take inputs
-		System.out.println(
-				"Enter the integer number to be converted to string");/* Prompts the user to enter an integer number */
+		System.out.println("Enter the integer number to be converted to string");
+		/* Prompts the user to enter an integer number */
 		int number = readNumber.nextInt(); // Saves the input
 
 		readNumber.close(); // Close Scanner object readNumber
